@@ -6,6 +6,7 @@ import ThumbUpOutlinedIcon from '@material-ui/icons/ThumbUpOutlined'
 import CommentIcon from '@material-ui/icons/Comment'
 import SharedOutlineIcon from '@material-ui/icons/ShareOutlined'
 import SendOutlineIcon from '@material-ui/icons/SendOutlined'
+import './styleMobile.css'
 
 function Post({name, description, message, photoUrl}) {
     return (

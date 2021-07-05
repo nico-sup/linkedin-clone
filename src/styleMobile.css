@@ -1,0 +1,84 @@
+@media  (max-width: 740px){
+    body {
+        border-top:0px
+     }
+
+    .App{
+        width: 100vw;
+        overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .app__body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .login{
+        transform: scale(0.8);
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-left{
+        margin-bottom: 20px;
+    }
+
+    .header-right{
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .headerOption{
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+   
+    .headerOption__icon{
+        height: 20px !important;
+        width: 20px !important;;
+    }
+    
+    .headerOption__title{
+        font-size: 10px !important;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sidebar{
+        width: 90vw;
+        position: sticky;
+        top:80px;
+        flex: 0.2;
+        border-radius: 10px;
+        text-align:center;
+        height: fit-content;
+    }
+
+    .feed{
+       width: 90vw;
+    }
+
+    .inputOption{
+        padding: 5px;   
+        font-size: 10px;
+    }
+
+    .widget{
+       width: 90vw;
+    }
+    
+    
+}

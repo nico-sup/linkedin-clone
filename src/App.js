@@ -8,6 +8,7 @@ import Login from './Login';
 import Sidebar from './Sidebar';
 import {auth} from './firebase'
 import Widget from './Widget';
+import './styleMobile.css'
 
 function App() {
 

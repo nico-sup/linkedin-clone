@@ -10,6 +10,7 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import {auth} from './firebase'
 import {logout} from './features/userSlice'
+import './styleMobile.css'
 
 function Header() {
     const dispatch = useDispatch()

@@ -3,6 +3,7 @@ import React from 'react'
 import {useSelector} from 'react-redux'
 import { selectUser } from './features/userSlice'
 import './Sidebar.css'
+import './styleMobile.css'
 
 function Sidebar() {
     
@@ -19,7 +20,7 @@ function Sidebar() {
         <div className='sidebar'>
             <div className='sidebar__top'>
                 <img src='img/background.jpg' alt='' />
-                <Avatar src={photoURL} className="sidebar__avatar"/>
+                <Avatar  className="sidebar__avatar"/>
                 <h2>{user.displayName}</h2>
                 <h4>{user.email}</h4>
             </div>

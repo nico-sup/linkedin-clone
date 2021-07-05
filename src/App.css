@@ -12,19 +12,3 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-
-@media  (max-width: 740px){
-
-    .App{
-        width: 100vw;
-        overflow-x: hidden;
-    }
-    
-    .app__body{
-        flex-direction: column;
-        margin-top: 35px;
-        max-width: 1200px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}

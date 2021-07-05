@@ -1,6 +1,7 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 import './HeaderOption.css'
+import './styleMobile.css'
 
 function HeaderOption({avatar, Icon, title, onClick}) {
     return (

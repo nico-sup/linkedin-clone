@@ -3,6 +3,7 @@ import './Login.css'
 import { auth } from './firebase'
 import {login} from "./features/userSlice"
 import {useDispatch} from 'react-redux'
+import './styleMobile.css'
 
 function Login() {
 

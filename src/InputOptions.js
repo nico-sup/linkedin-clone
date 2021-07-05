@@ -1,5 +1,6 @@
 import React from 'react'
 import './InputOption.css'
+import './styleMobile.css'
 
 function InputOptions({Icon, title, color}) {
     return (
